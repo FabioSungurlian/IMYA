@@ -20,6 +20,7 @@ body {
   columns:  30em 1fr;
   grid-gap: 1em;
 }
+
 body > header {
   grid-column: 1 / 2;
   grid-row: 1;
@@ -41,4 +42,9 @@ h1 {
 }
 h2 {
   font-size: 1.75em;
+}
+
+footer {
+  background-color:#000;
+  margin-top:300px; 
 }
