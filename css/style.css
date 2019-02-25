@@ -39,7 +39,6 @@ body div {
   width:340px;
   height:200px;
   float:right;
-  display:inline-block;
 }
 
 .video {
@@ -52,6 +51,13 @@ body div {
   width:580px;
   height:335px;
   margin-left:30px;
+}
+
+.blog {
+  width:900px;
+  height:350px; 
+  margin-left:30px;
+  margin-top:16px;
 }
 
 main {
