@@ -28,6 +28,22 @@ body > header > nav > li {
   margin: 0.2em 0.5em;
 }
 
+body div {
+  background-color:#000; 
+}
+
+.video0 {
+  width:340px;
+  height:200px; 
+  float:right;
+  display:inline-block;
+}
+
+.video {
+  margin-top:10px;
+  margin-right:10px;  
+}
+
 main {
   grid-row: 2;
   grid-column: 1;
