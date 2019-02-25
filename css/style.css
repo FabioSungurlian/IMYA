@@ -3,7 +3,7 @@
 }
 
 body {
-  font-size: 16px;
+  font: 16px / 1.2 Arial, sans-serif;
   padding: 0;
   color: #aaa;
   border: 0;
@@ -37,7 +37,6 @@ body > header > nav > li {
   display: inline-block;
   margin: 0.2em 0.5em;
 }
-
 body div {
   background-color:#4d371d;
   border:3px solid #000;
@@ -68,7 +67,7 @@ main {
 }
 aside {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 3;
 }
 aside > div {
   position: sticky;
