@@ -21,3 +21,7 @@ Desinteresadamente, este es un top 10 de razones para ___ver IMYA___:
 8. Somos trabajadores y perseverantes.
 9. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 10. consectetur adipisicing eliti, lorem ipsum.
+
+## Links
+- [canal de youtube]["https://www.youtube.com/channel/UC3ROuWOoNzzYkvm8aGasfjQ"]
+- [Trailer del canal]["https://www.youtube.com/watch?v=i-rDl4Gkig0"]
