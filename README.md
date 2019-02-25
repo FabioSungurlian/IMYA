@@ -23,5 +23,5 @@ Desinteresadamente, este es un top 10 de razones para ___ver IMYA___:
 10. consectetur adipisicing eliti, lorem ipsum.
 
 ## Links
-- [canal de youtube]["https://www.youtube.com/channel/UC3ROuWOoNzzYkvm8aGasfjQ"]
-- [Trailer del canal]["https://www.youtube.com/watch?v=i-rDl4Gkig0"]
+- [canal de youtube][https://www.youtube.com/channel/UC3ROuWOoNzzYkvm8aGasfjQ]
+- [Trailer del canal][https://www.youtube.com/watch?v=i-rDl4Gkig0]
