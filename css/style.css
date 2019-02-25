@@ -4,5 +4,41 @@
 }
 
 .banner {
+  margin-right:auto;
+  margin-left:auto;
+  width:100%; 
+}
 
+body {
+  font-size: 16px;
+  padding: 0;
+  color: #aaa;
+  border: 0;
+  margin: 0;
+  display: grid;
+  rows: 5em 1fr;
+  columns:  30em 1fr;
+  grid-gap: 1em;
+}
+body > header {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+main {
+  grid-row: 2;
+  grid-column: 1;
+}
+aside {
+  grid-column: 2;
+  grid-row: 2;
+}
+aside > div {
+  position: sticky;
+  top: 1em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
 }
