@@ -3,7 +3,7 @@
 }
 
 body {
-  font-size: 16px;
+  font: 16px / 1.2 Arial, sans-serif;
   padding: 0;
   color: #aaa;
   border: 0;
@@ -28,29 +28,13 @@ body > header > nav > li {
   margin: 0.2em 0.5em;
 }
 
-body div {
-  background-color:#000; 
-}
-
-.video0 {
-  width:340px;
-  height:200px; 
-  float:right;
-  display:inline-block;
-}
-
-.video {
-  margin-top:10px;
-  margin-right:10px;  
-}
-
 main {
   grid-row: 2;
   grid-column: 1;
 }
 aside {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 3;
 }
 aside > div {
   position: sticky;
