@@ -99,3 +99,12 @@ a:hover {
   color:#fff;
   background:#8f714f;
 }
+
+nav a {
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.inicio {
+  margin-left:260px;
+}
