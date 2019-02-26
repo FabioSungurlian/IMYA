@@ -1,1 +1,5 @@
-@media (max-screen: )
+@media only screen and (max-width: 800px) {
+  .left, .right {
+    float: none;
+  }
+}

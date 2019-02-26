@@ -27,10 +27,20 @@ body > header {
 body > header > nav {
   border-bottom:3px solid #000;
   border-top:3px solid #000;
+  margin: 0 auto;
 }
 body > header > nav > li {
   display: inline-block;
-  margin: 0.2em 0.5em;
+  margin-left: -0.27rem;
+  border-right: 2px solid hsla(0, 0%, 100%, 0.3)
+}
+body > header > nav > li:last-of-type {
+  border-right: 0;
+}
+header nav a {
+  width: 100%;
+  height: 100%;
+  padding: 0.2em 0.5em;
 }
 .left, .right {
   margin: 4%;
@@ -98,13 +108,10 @@ a {
 a:hover {
   color:#fff;
   background:#8f714f;
+  border-radius: 0.2em;
 }
 
 nav a {
-  margin-left:40px;
-  margin-right:40px;
-}
-
-.inicio {
-  margin-left:260px;
+  margin-left:2em;
+  margin-right:2em;
 }
