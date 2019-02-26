@@ -1,18 +1,20 @@
-function setVideoSize(i, video){
-  try{
-    $(video).attr("width", $(video).width() + "px");
-    let height = $(video).width() * 0.55;
-    //debugger;
-    $(video)
-      .css("height", height + "px")
-      .attr("height", height);
-    //debugger;
-    //$(video).attr("src", $(video).attr("src"))
-  } catch(err){
-    console.error(err);
-  }
+function setVideoSize(video){
+  video.width = window
+    .getComputedStyle(video)
+    .getPropertyValue("width");
+  let height = +(/[\d\.]+/.exec(video.width)[0]) * 0.55;
+  video.style.height = height + "px";
+  video.height = height;
 }
-$(".video").find("iframe").each(setVideoSize);
-$(window).on("resize", (e) => {
-  $(".video").find("iframe").each(setVideoSize);
-});
+document
+  .querySelectorAll(".video")
+  .forEach(el => {
+    setVideoSize(el.firstElementChild);
+  });
+window.addEventListener("resize", (e) => {
+  document
+    .querySelectorAll(".video")
+    .forEach(el => {
+      setVideoSize(el.firstElementChild);
+    })
+})
