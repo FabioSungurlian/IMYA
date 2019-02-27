@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/85c4dc3d-a5a1-4040-9ae5-81658c6d5789/deploy-status)](https://app.netlify.com/sites/imya-site/deploys)
+
 # IMYA
 Esta es la pagina del ostentoso y completamente inmerso en la fama, ___IMYA___.
 
